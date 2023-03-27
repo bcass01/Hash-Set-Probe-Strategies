@@ -29,10 +29,10 @@ The `HashSet` class has the following methods:
 
 * `int size()` - returns the number of elements in the hash set.
 
-* `boolean add(int value)` - adds a value to the set. This function returns `true` if the value is not already in the set, and returns `false` otherwise. This function will also resize the underlying array if the number of elements in the HashSet divided by the HashSet's size is greater than the established ratio.
+* `boolean add(int value)` - adds a value to the set. This function returns true if the value is not already in the set, and returns false otherwise. This function will also resize the underlying array if the number of elements in the HashSet divided by the HashSet's size is greater than the established ratio.
 
-* `boolean contains(int value)` - checks if a value is in the set. This function should return `true` if the value is in the set, and return `false` otherwise.
+* `boolean contains(int value)` - checks if a value is in the set. This function should return true if the value is in the set, and return false otherwise.
 
-* `boolean remove(int value)` - removes a value from the set. This function returns `true` if the value is successfully removed, and `false` if the value was not in the set.
+* `boolean remove(int value)` - removes a value from the set. This function returns true if the value is successfully removed, and false if the value was not in the set.
 
 * `int[] toArray()` - copies the underlying array and returns it. This function was only used to test code.
