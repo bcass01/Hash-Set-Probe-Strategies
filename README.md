@@ -22,6 +22,8 @@ This project contains four files:
     * (5 + 2 * 2) % 7 = 2
     * (5 + 3 * 3) % 7 = 0
     * etc.
+
+
 The `HashSet` class has the following methods:
 
 * `HashSet(int initArrayLength, int ratio, ProbeStrategy strategy)` - The constructor. `initArrayLength` is the length of the array at construction time; `ratio` determines the maximum number of elements before resizing; and `ProbeStrategy` determines the probing strategy.
