@@ -1,6 +1,5 @@
 # Hash-Set-Probe-Strategies
-Implementation of a hash set where the user can choose a probing strategy at the time of construction.
-This is done by creating a `ProbeStrategy` interface that defines a `probe` method. The `LinearProbeStrategy` and `QuadraticProbeStrategy` classes both implement this interface and have their own unique `probe` method. The constructor for the `HashSet` class allows the user to choose which of the two probe strategies the HashSet will use. 
+This project implements a hash set where the user can choose a probing strategy when they construct the set. This is done by creating a `ProbeStrategy` interface that defines a `probe` method. The `LinearProbeStrategy` and `QuadraticProbeStrategy` classes both implement this interface and have their own unique `probe` method. The constructor for the `HashSet` class allows the user to choose which of the two probe strategies the HashSet will use. 
 This project contains four files:
 
 * The `ProbeStrategy` interface, which defines the method `int probe(int arraySize, int originalHash, int attempt)`. This method will be used whenever a hash collision occurs.
